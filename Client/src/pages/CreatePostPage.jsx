@@ -175,7 +175,7 @@ const TextEditor = () => {
                     </div>
 
                     <div className="cover-image-input text-left">
-                        <label style={{display:'inline-flex',alignItems:'center'}} title='add photo of 100:42 ratio' className="input-text" >
+                        <label style={{display:'inline-flex',alignItems:'center',gap:'10px'}} title='add photo of 100:42 ratio' className="input-text" >
                             Select your cover image {uploading ? <Spinner /> : null}
                         </label>
                         <input
